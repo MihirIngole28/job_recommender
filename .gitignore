@@ -1,0 +1,24 @@
+# Virtual environment
+job_recommender_env/
+
+# Large data files
+data/*
+!data/.gitkeep  # Keep empty file to preserve folder in Git
+
+# Model weights and caches
+*.bin
+*.h5
+*.pt
+*.pkl
+__pycache__/
+*.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+*.DS_Store  # macOS-specific
+
+# Sensitive files
+*.env
+*.key
+*.secret
