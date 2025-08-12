@@ -1,4 +1,5 @@
 import pdfplumber
+from src.preprocessing import clean_text, load_and_clean_jobs
 
 def parse_resume(file_path):
     if file_path.endswith('.pdf'):
