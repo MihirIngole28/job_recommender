@@ -1,20 +1,13 @@
----
-title: Job Recommender
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-- streamlit
-pinned: false
-short_description: Streamlit template space
-license: mit
----
+# AI-Powered Job Recommendation System
+A deep learning-based job recommender using NLP and embeddings to match resumes with job listings.
 
-# Welcome to Streamlit!
+## Project Structure
+- `data/`: Datasets (not tracked in Git)
+- `src/`: Python scripts for preprocessing, modeling
+- `notebooks/`: Jupyter notebooks for analysis
+- `app/`: Streamlit app for UI
 
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
-
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+## Setup
+1. Clone repo: `git clone <repo-url>`
+2. Create virtual env: `python -m venv job_recommender_env`
+3. Install dependencies: `pip install -r requirements.txt`
