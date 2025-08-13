@@ -11,5 +11,5 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git remote add space https://huggingface.co/spaces/mihiringole/job-recommender
+          git remote add space https://oauth2:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/mihiringole/job-recommender
           git push space main --force
