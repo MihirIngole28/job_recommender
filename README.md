@@ -11,3 +11,4 @@ A deep learning-based job recommender using NLP and embeddings to match resumes 
 1. Clone repo: `git clone <repo-url>`
 2. Create virtual env: `python -m venv job_recommender_env`
 3. Install dependencies: `pip install -r requirements.txt`
+Test sync
