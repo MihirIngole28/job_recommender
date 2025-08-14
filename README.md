@@ -14,3 +14,4 @@ A deep learning-based job recommender using NLP and embeddings to match resumes 
 Test sync
 Test sync
 Test sync
+Test sync
