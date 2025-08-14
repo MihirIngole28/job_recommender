@@ -13,3 +13,4 @@ A deep learning-based job recommender using NLP and embeddings to match resumes 
 3. Install dependencies: `pip install -r requirements.txt`
 Test sync
 Test sync
+Test sync
