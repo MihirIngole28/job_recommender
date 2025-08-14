@@ -7,6 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Unshallow clone
+      - name: Setup Git LFS
+        run: git lfs install
+      - name: Pull LFS Objects
+        run: git lfs pull
       - name: Push to HF Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
