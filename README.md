@@ -1,20 +1,12 @@
-# AI-Powered Job Recommendation System
-A deep learning-based job recommender using NLP and embeddings to match resumes with job listings.
-
-## Project Structure
-- `data/`: Datasets (not tracked in Git)
-- `src/`: Python scripts for preprocessing, modeling
-- `notebooks/`: Jupyter notebooks for analysis
-- `app/`: Streamlit app for UI
-
-## Setup
-1. Clone repo: `git clone <repo-url>`
-2. Create virtual env: `python -m venv job_recommender_env`
-3. Install dependencies: `pip install -r requirements.txt`
-Test sync
-Test sync
-Test sync
-Test sync
-Test sync
-Test sync
-Test sync
+---
+title: AI-Powered Personalized Job Recommendation System
+emoji: 🚀
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.37.1
+app_file: app/app.py
+pinned: false
+short_description: An AI system that recommends jobs based on resumes and preferences using NLP and deep learning.
+tags: [nlp, recommendation-system, deep-learning, streamlit, huggingface]
+---
